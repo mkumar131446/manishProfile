@@ -1,0 +1,25 @@
+.thumbnail:hover {
+  box-shadow: 0 20px 20px 4px;
+  transition: 0.3s;
+}
+
+p{
+	font-size: 16px;
+	font-weight: 800px;
+	font-family: 'Raleway', sans-serif;
+}
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: contents;
+  vertical-align: middle;
+}
+.thumbnail{
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.box-shadow{
+  padding: 0.5rem;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+}
