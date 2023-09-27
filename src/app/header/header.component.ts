@@ -23,6 +23,8 @@ export class HeaderComponent implements OnInit {
       this.activeTab = 'experience';
     }else if (route.endsWith('projects')) {
       this.activeTab = 'projects';
+    } else if(route.endsWith('/')){
+        this.activeTab = 'homepage'
     } else {
       this.activeTab = 'aboutme';
     }
